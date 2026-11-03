@@ -1,0 +1,11 @@
+datasets==2.19.2
+tqdm
+rouge
+jieba
+fuzzywuzzy
+torch
+transformers
+pytest
+einops
+python-Levenshtein
+fschat
