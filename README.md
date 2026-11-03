@@ -170,25 +170,6 @@ The run writes `indexcache_config.json` with `f_layers` (proposal layers), `s_la
 
 Calibration is memory-intensive at long sequence lengths; `offline_calibration.py` supports `torch.distributed` and falls back to single-GPU when `RANK` is unset.
 
-## ⚖️ Evaluation
-
-### Reasoning benchmarks
-
-
-```bash
-cd eval/reasoning_tasks
-bash scripts/eval_prism_attention.sh
-```
-
-
-### LongBench
-
-```bash
-cd eval/longbench
-bash eval_longbench_prism.sh
-```
-
-
 
 ## 📝 Citation
 
